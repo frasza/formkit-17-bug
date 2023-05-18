@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.6",
+    "@nuxtjs/tailwindcss": "^6.7.0",
+    "@types/node": "^18",
+    "eslint-plugin-tailwindcss": "^3.12.0",
+    "nuxt": "^3.5.0",
+    "nuxt-headlessui": "^1.1.4",
+    "nuxt-icon": "^0.4.0"
+  },
+  "dependencies": {
+    "@formkit/nuxt": "^0.17.2",
+    "@formkit/themes": "^0.17.2",
+    "@headlessui-float/vue": "^0.11.2",
+    "eslint": "^8.39.0"
+  }
+}
